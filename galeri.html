@@ -1,0 +1,132 @@
+﻿<!doctype html>
+<html><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Galeri</title>
+<!-- InstanceEndEditable -->
+
+
+<!-- InstanceBeginEditable name="head" -->
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAsets/jquery-ui-effects.custom.min.js"></script>
+<script type="text/javascript">
+function MM_DW_effectHighlight(obj,method,effect,color,speed)
+{
+    obj[method](effect, {color:color}, speed);
+}
+function MM_DW_effectShake(obj,method,effect,direction,distance,times,speed)
+{
+    obj[method](effect, {direction:direction,distance:distance,times:times}, speed);
+}
+function MM_DW_effectFade(obj,method,effect,speed)
+{
+    obj[method](effect, {}, speed);
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- InstanceEndEditable -->
+	<link rel="stylesheet" href="Css/style.css"/>
+</head>
+
+<body onLoad="MM_preloadImages('resimler/ark (3).jpeg','resimler/ark (2).jpeg','resimler/ark (1).jpeg','resimler/mzr (2).jpeg','resimler/mzr (1).jpeg','resimler/ben.jpeg','resimler/mzr (3).jpg','resimler/mzr (4).jpeg')">
+<div id="header">
+  <div class="menu"> 
+	 <ul>
+	<li><a href="iletisim.html">İletişim</a></li>
+	<li><a href="hakkimda.html">Hakkımda</a></li>
+	<li><a href="galeri.html">Galeri</a></li>
+	<li><a href="ilgialanlari.html">İlgi Alanlarım</a></li>
+	<li><a href="index.html">Anasayfa</a></li>
+    
+    </ul>
+  </div>
+<div class="logo"><a href="index.html"><img src="resimler/logo.png" width="300" height="180" alt=""/></a></div>
+</div>
+<!-- InstanceBeginEditable name="main" -->
+<div id="galery">
+	<div class="galery-text">
+	<h1>Ben ve Arkadaşlarım</h1></div>
+	<div class="galeri-buyuk"><img src="resimler/ark (3).jpeg" alt="" width="1000" height="500" id="buyuk"/></div>
+	<div class="galeri-kucuk"></div>    	 
+  <table width="1000" cellspacing="10">
+		  <tbody>
+			<tr>
+			  <td onMouseOver="MM_swapImage('buyuk','','resimler/ark (3).jpeg',1)">
+				<img src="resimler/ark (3)k.jpg" alt="" width="225" height="225" id="resim1" onClick="MM_swapImage('buyuk','','resimler/ark (3).jpeg',1)" onMouseOut="MM_swapImgRestore()">
+			  </td>
+			  <td>
+			    <img src="resimler/ark (2)k.jpg" alt="" width="225" height="225" id="resim2" onClick="MM_swapImage('buyuk','','resimler/ark (2).jpeg',1)" onMouseOut="MM_swapImgRestore()">
+			  </td>
+			  <td>
+			    <img src="resimler/ark (1)k.jpg" alt="" width="225" height="225" id="resim3" onClick="MM_swapImage('buyuk','','resimler/ark (1).jpeg',1)" onMouseOut="MM_swapImgRestore()">
+			  </td>
+			  <td>
+			    <img src="resimler/mzr (2)k.jpg" alt="" width="225" height="225" id="resim4" onClick="MM_swapImage('buyuk','','resimler/mzr (2).jpeg',1)" onMouseOut="MM_swapImgRestore()">
+			  </td>
+			</tr>
+			<tr>
+			  <td>
+			    <img src="resimler/mzr (1)k.jpg" alt="" width="225" height="225" id="resim5" onClick="MM_swapImage('buyuk','','resimler/mzr (1).jpeg',1)" onMouseOut="MM_swapImgRestore()">
+			  </td>
+			  <td>
+				  <img src="resimler/benk.jpg" alt="" width="225" height="225" id="resim6" onClick="MM_swapImage('buyuk','','resimler/ben.jpeg',1)" onMouseOut="MM_swapImgRestore()">
+			  </td>
+			  <td>
+				  <img src="resimler/mzr (3)k.jpg" alt="" width="225" height="225" id="resim7" onClick="MM_swapImage('buyuk','','resimler/mzr (3).jpg',1)" onMouseOut="MM_swapImgRestore()">
+			  </td>
+			  <td>
+				  <img src="resimler/mzr (4)k.jpg" alt="" width="225" height="225" id="resim8" onClick="MM_swapImage('buyuk','','resimler/mzr (4).jpeg',1)" onMouseOut="MM_swapImgRestore()">
+			  </td>
+			</tr>
+		  </tbody>
+		</table>
+</div>
+<!-- InstanceEndEditable -->
+<div id="footer">
+  <div class="yazı">
+    <p>Şilan Çakan Web Editörü Projesi</p>
+    <p>Siirt Üniversitesi Bilgisayar Programcılığı 1.Sınıf</p>
+  </div>
+  <div class="muzik">
+    <audio controls>
+      <source src="muzik/arkaplanmuzik.mp3" type="audio/mp3">
+    </audio>
+  </div>
+  <div class="social">
+	  <a href="https://www.instagram.com/silancakan/" target="_blank">
+		  <img src="resimler/instagram.png" width="40" height="40" alt=""/></a>
+	  
+	  <a href="https://www.linkedin.com/in/şilan-çakan-290561285/" target="_blank">
+		  <img src="resimler/linkedin.png" width="40" height="40" alt=""/></a>
+	  
+	  <a href="https://x.com/silannee" target="_blank">
+	  	<img src="resimler/twitter.png" width="40" height="40" alt=""/></a> 
+	  
+	  <a href="mailto:silan.cakan73@gmail.com" target="_blank">
+		  <img src="resimler/gmail.png" width="40" height="40" alt=""/></a>
+  </div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

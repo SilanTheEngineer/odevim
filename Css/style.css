@@ -1,0 +1,313 @@
+@charset "utf-8";
+body{
+background-image: url("../resimler/Monochrome.jpg")
+}
+#hoby{
+	margin: auto;
+	width: 1000px;
+	height: 800px;
+	background-image: url("../resimler/main.png");
+}
+#header {
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -5px;
+    height: 180px;
+    width: 1000px;
+	background-image: url("../resimler/header.png")
+
+}
+#main {
+	margin: auto;
+    background-image: url("../resimler/main.png");
+	height: 800px;
+    width: 1000px;
+}
+
+.logo {
+    float: left;
+    height: 180px;
+    width: 300px;
+}
+.menu {
+    float: right;
+    height: 180px;
+    width: 700px;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+}
+.menu ul li{
+	float: right;
+	padding: 75px 10px 20px 9px;
+	height: 35px;
+	margin-top: 60;
+	padding-right: 40px;	
+}
+.menu ul li a{
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#fff;
+	font-size:17px;
+	text-decoration: none;
+}
+.menu ul li.selected a{
+	color:white;
+}
+.menu ul li a:hover{
+	color:#000;
+}
+#footer {
+	margin: auto;
+    background-color: #5A5A5A;
+    height: 135px;
+    width: 1000px;
+    font-size: large;
+    text-align: left;
+    padding-top: 34px;
+}
+.yazı {
+	width: 400px;
+	height: 120px;
+	float:left;	
+	padding-left: 20px
+}
+.social {
+    float: right;
+    height: 40px;
+    width: 240px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+#cv {
+    height: 450px;
+    width: 1000px;
+    margin: auto;
+	background-image: url("../resimler/main.png");
+}
+
+.hakkimda {
+    height: 450px;
+    width: 700px;
+}
+.hakkimda #ben h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.hakkimda #ben p {
+    padding-left: 25px;
+}
+#contact {
+    margin: auto;
+    height: 430px;
+    width: 1000px;
+	background-color: #777777;
+}
+/*iletişim tablosunun ve yazılarının konumu*/
+#contact table {
+    float: left;
+    text-align: left;
+}
+
+/*reset butonu büyüklüğü*/
+#reset{
+	font-size:20px;
+}
+/*gönder butonu büyüklüğü*/
+#submit{
+	font-size:20px;
+}
+.txtbox{
+	width: 230px;
+	height: 20px;
+	resize:none;
+}
+.txtarea{
+	width: 230px;
+	height: 60px;
+	resize: none;
+}
+
+.video1{
+	border-style: solid;
+	border-width: 2px;
+}
+.video2{
+	border-style: solid;
+	border-width: 2px;
+}
+#hoby .song .video1 {
+    float: left;
+	background-color: #615D5D;
+}
+#hoby .song .video2 {
+    float: left;
+	margin-left: 9px;
+	background-color: #615D5D;
+}
+.song .video1 p {
+    text-align: center;
+}
+.song .video2 p {
+    text-align: center;
+}
+.song{
+	witdh:1000px;
+	height: 500px;
+	border-style: solid;
+	border-width: 2px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+
+.pcg{
+	background-color: #777777;
+    witdh: 1000px;
+    height: 300px;
+    border-style: solid;
+    border-width: 2px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+#hoby .song h1 {
+    text-align: center;
+	margin-top: 0px;
+	padding-top: 10px;
+}
+#hoby .pcg h1 {
+    text-align: center;
+}
+#hoby .pcg .lg {
+    width: 1000px;
+    height: 600px;
+}
+.pcg .lg .py {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 40px;
+}
+.pcg .lg .java {
+    width: 200px;
+    height: 200px;
+	float: left;
+	margin-left: 40px;
+}
+.pcg .lg .js {
+    width: 200px;
+    height: 200px;
+	float: left;
+	margin-left: 40px;
+}
+.pcg .lg .rt {
+    width: 200px;
+    height: 200px;
+	float: left;
+	margin-left: 40px;
+}
+.song .video1 iframe {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.song .video2 iframe {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+table th{
+	border-style: solid;
+	border-width: 1px;
+}
+table td{
+	border-style: solid;
+	border-width: 1px;
+}
+#contact iframe {
+    margin-top: 5px;
+}
+#galery {
+    background-image: url("../resimler/main.png");
+    margin: auto;
+    height: 1030px;
+    width: 1000px;
+}
+.gezi {
+    margin-left: 20px;
+    height: 600px;
+    width: 960px;
+    border: 1px solid #000000;
+}
+.galery-text h1 {
+    padding-left: 10px;
+	margin: auto;
+}
+td a img {
+    border-radius: 35px;
+}
+
+.menu ul #oynatici1 {
+    float: left;
+}
+.muzik{
+	height: 120px;
+	width: 200px;
+	float: left;
+}
+#hi{
+	margin: auto;
+	height: 525px;
+	width: 1000px;
+	background-color: #49DDC8;
+}
+.me{
+	width: 650px;
+	height: 525px;
+	float: left;
+	background-color: #777777;
+}
+.me-img{
+	width: 350px;
+	height: 525px;
+	float: left;
+}
+#hi .me h3 {
+    padding-left: 16px;
+    text-align: center;
+    font-size: 29px;
+}
+#hi .me h4 {
+    padding-left: 16px;
+    font-size: 25px;
+}
+#hi .me h2 {
+    padding-left: 16px;
+    font-size: 27px;
+    padding-top: 0px;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: oblique;
+    font-weight: bolder;
+}
+#hi .me h1 {
+    padding-left: 15px;
+    text-align: center;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.lg img {
+    border: 3px solid #000000;
+}
+.galeri-buyuk {
+    width: 1000px;
+    height: 500px;
+    background-color: #747474;
+	margin: auto;
+}
+#galery table {
+    background-color: #777777;
+}

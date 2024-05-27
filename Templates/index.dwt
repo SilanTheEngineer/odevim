@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Anasayfa</title>
+<!-- TemplateEndEditable -->
+
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+	<link rel="stylesheet" href="../Css/style.css"/>
+</head>
+
+<body>
+<div id="header">
+  <div class="menu"> 
+	 <ul>
+	<li><a href="../iletisim.html">İletişim</a></li>
+	<li><a href="../hakkimda.html">Hakkımda</a></li>
+	<li><a href="../galeri.html">Galeri</a></li>
+	<li><a href="../ilgialanlari.html">İlgi Alanlarım</a></li>
+	<li><a href="../index.html">Anasayfa</a></li>
+    
+    </ul>
+  </div>
+<div class="logo"><a href="../index.html"><img src="../resimler/logo.png" width="300" height="180" alt=""/></a></div>
+</div>
+<!-- TemplateBeginEditable name="main" -->
+<div id="main"></div>
+<!-- TemplateEndEditable -->
+<div id="footer">
+  <div class="yazı">
+    <p>Şilan Çakan Web Editörü Projesi</p>
+    <p>Siirt Üniversitesi Bilgisayar Programcılığı 1.Sınıf</p>
+  </div>
+  <div class="muzik">
+    <audio controls>
+      <source src="../muzik/arkaplanmuzik.mp3" type="audio/mp3">
+    </audio>
+  </div>
+  <div class="social">
+	  <a href="https://www.instagram.com/silancakan/" target="_blank">
+		  <img src="../resimler/instagram.png" width="40" height="40" alt=""/></a>
+	  
+	  <a href="https://www.linkedin.com/in/şilan-çakan-290561285/" target="_blank">
+		  <img src="../resimler/linkedin.png" width="40" height="40" alt=""/></a>
+	  
+	  <a href="https://x.com/silannee" target="_blank">
+	  	<img src="../resimler/twitter.png" width="40" height="40" alt=""/></a> 
+	  
+	  <a href="mailto:silan.cakan73@gmail.com" target="_blank">
+		  <img src="../resimler/gmail.png" width="40" height="40" alt=""/></a>
+  </div>
+</div>
+</body>
+</html>
